@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Data Entry Specialist | Virtual Assistant">
+  <title>John Mark Payacag</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body { margin: 0; }
+    .skip-link { position: absolute; left: -9999px; }
+    .skip-link:focus { left: 1rem; top: 1rem; z-index: 10; }
+    .dfy-footer__resume { display: inline-flex; align-items: center; }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; transition-duration: 0.01ms !important; }
+    }
+    
+        html { background: #0c0d12; color-scheme: dark; }
+        .dfy-rose-executive { min-height: 100vh; background: #0c0d12; color: #f4eee3; font-family: Arial, Helvetica, sans-serif; line-height: 1.6; }
+        .rose-executive-hero { display: grid; grid-template-columns: minmax(0, 7fr) minmax(18rem, 5fr); min-height: min(50rem, 100vh); border-bottom: 1px solid rgba(230, 177, 95, .3); }
+        .rose-executive-hero__copy { display: flex; flex-direction: column; justify-content: end; padding: clamp(2rem, 7vw, 7rem); }
+        .rose-executive-label { margin: 0; color: #e6b15f; font-size: .7rem; font-weight: 700; letter-spacing: .18em; text-transform: uppercase; }
+        .rose-executive-hero h1, .rose-executive-section h2, .rose-executive-contact h2 { margin: .75rem 0 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(3rem, 7vw, 7rem); font-weight: 500; letter-spacing: 0; line-height: .96; }
+        .rose-executive-headline { max-width: 35rem; margin: 1.5rem 0 0; color: #e6b15f; font-size: 1rem; font-weight: 700; }
+        .rose-executive-summary { max-width: 42rem; margin: 1.25rem 0 0; color: rgba(244, 238, 227, .78); font-size: 1.05rem; }
+        .rose-executive-location { margin: .65rem 0 0; color: rgba(244, 238, 227, .58); font-size: .9rem; }
+        .rose-executive-hero nav { display: flex; flex-wrap: wrap; gap: .75rem 1.25rem; margin-top: 2rem; }
+        .rose-executive-hero nav a, .rose-executive-link { color: #f4eee3; text-decoration-color: rgba(230, 177, 95, .75); text-decoration-thickness: 1px; text-underline-offset: .28em; transition: color .18s ease, text-decoration-color .18s ease; }
+        .rose-executive-hero nav a:hover, .rose-executive-link:hover { color: #e6b15f; }
+        .rose-executive-portrait-pane { min-height: 26rem; border-left: 1px solid rgba(230, 177, 95, .3); background: #151720; }
+        .rose-executive-portrait { display: block; width: 100%; height: 100%; min-height: 26rem; object-fit: cover; }
+        .rose-executive-fallback { display: grid; place-items: center; color: #e6b15f; font-family: Georgia, "Times New Roman", serif; font-size: clamp(4rem, 12vw, 10rem); }
+        .rose-executive-content, .rose-executive-contact { max-width: 76rem; margin: 0 auto; padding: 0 clamp(1.25rem, 6vw, 5rem); }
+        .rose-executive-section, .rose-executive-contact { padding-top: clamp(3rem, 8vw, 7rem); border-bottom: 1px solid rgba(230, 177, 95, .24); }
+        .rose-executive-section h2, .rose-executive-contact h2 { font-size: clamp(2rem, 4vw, 4rem); }
+        .rose-executive-tenure { display: grid; grid-template-columns: minmax(8rem, 3fr) minmax(0, 9fr); gap: 1.5rem; padding: 1.5rem 0; border-top: 1px solid rgba(244, 238, 227, .12); }
+        .rose-executive-dates, .rose-executive-company { margin: 0; color: #e6b15f; font-size: .75rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+        .rose-executive-tenure h3, .rose-executive-education h3 { margin: 0; font-family: Georgia, "Times New Roman", serif; font-size: 1.35rem; font-weight: 500; letter-spacing: 0; }
+        .rose-executive-company, .rose-executive-copy, .rose-executive-education p { margin-top: .45rem; }
+        .rose-executive-copy, .rose-executive-education p { color: rgba(244, 238, 227, .72); }
+        .rose-executive-tenure__chips { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1rem 0 0; padding: 0; list-style: none; }
+        .rose-executive-tenure__chip { border: 1px solid rgba(230, 177, 95, .45); color: rgba(244, 238, 227, .84); padding: .3rem .55rem; font-size: .78rem; }
+        .rose-executive-skills { display: flex; flex-wrap: wrap; gap: .6rem; margin: 2rem 0 0; padding: 0 0 3rem; list-style: none; }
+        .rose-executive-skills li { border: 1px solid rgba(230, 177, 95, .45); color: #f4eee3; padding: .45rem .7rem; font-size: .85rem; }
+        .rose-executive-education { padding: 1.25rem 0; border-top: 1px solid rgba(244, 238, 227, .12); }
+        .rose-executive-achievements-block { padding-top: 2.5rem; }
+        .rose-executive-achievements-block h3 { margin: .65rem 0 0; font-family: Georgia, "Times New Roman", serif; font-size: clamp(1.45rem, 2.5vw, 2.25rem); font-weight: 500; letter-spacing: 0; }
+        .rose-executive-achievements { margin: 2rem 0 0; padding: 0 0 3rem; list-style: none; }
+        .rose-executive-achievements li { display: grid; grid-template-columns: 3rem minmax(0, 1fr); gap: 1rem; padding: 1.25rem 0; border-top: 1px solid rgba(244, 238, 227, .12); }
+        .rose-executive-achievements span { color: #e6b15f; font-family: Georgia, "Times New Roman", serif; font-size: 1.25rem; }
+        .rose-executive-achievements p { margin: 0; color: rgba(244, 238, 227, .8); }
+        .rose-executive-contact { padding-bottom: clamp(3rem, 8vw, 7rem); }
+        .rose-executive-contact h2 { margin-bottom: 1.5rem; }
+        .rose-executive-contact .rose-executive-link { display: block; width: fit-content; margin-top: .65rem; }
+        .dfy-footer { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; padding: 1.5rem clamp(1.25rem, 6vw, 5rem); border-top: 1px solid rgba(230, 177, 95, .3); background: #0c0d12; color: rgba(244, 238, 227, .64); font-family: Arial, Helvetica, sans-serif; }
+        .dfy-footer__resume { border: 1px solid #e6b15f; background: #e6b15f; color: #0c0d12; padding: .7rem 1rem; font-size: .75rem; font-weight: 700; letter-spacing: .08em; text-decoration: none; text-transform: uppercase; transition: background .18s ease, color .18s ease; }
+        .dfy-footer__resume:hover, .dfy-footer__resume:focus-visible { background: #0c0d12; color: #e6b15f; }
+        .dfy-footer__attribution { margin: 0; font-size: .75rem; }
+        .dfy-footer__attribution a { color: #f4eee3; text-decoration-color: #e6b15f; text-underline-offset: .2em; }
+        @media (max-width: 720px) { .rose-executive-hero { display: block; } .rose-executive-hero__copy { min-height: 34rem; } .rose-executive-portrait-pane { min-height: 30rem; border-top: 1px solid rgba(230, 177, 95, .3); border-left: 0; } .rose-executive-tenure { grid-template-columns: 1fr; gap: .45rem; } }
+      
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <main id="main-content"><div class="dfy-rose-executive" data-dfy-lite-template="rose-anna-executive">
+  <header class="rose-executive-hero" data-dfy-region="hero">
+    <div class="rose-executive-hero__copy">
+      <h1>John Mark Payacag</h1>
+      <p class="rose-executive-headline">Data Entry Specialist | Virtual Assistant</p>
+      <p class="rose-executive-summary">Virtual assistant and administrative professional with experience in customer service, sales, operations support, and workflow coordination. Skills listed include database management, research, time management, and Microsoft Office-related administrative work.</p>
+      <p class="rose-executive-location">Cabanatuan City, Nueva Ecija, Philippines</p>
+      <nav aria-label="Profile sections"><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#education">Education</a><a href="#contact">Contact</a></nav>
+    </div>
+    <div class="rose-executive-portrait-pane" data-dfy-region="portrait"><img class="rose-executive-portrait" src="assets/headshot.png?v=647b5f47f1c4" alt="John Mark Payacag portrait"></div>
+  </header>
+  <div class="rose-executive-content"><section class="rose-executive-section" id="experience" data-dfy-region="experience" aria-labelledby="experience-heading"><p class="rose-executive-label">I · Tenure</p><h2 id="experience-heading">Experience</h2><article class="rose-executive-tenure"><p class="rose-executive-dates">May 2022 - August 2025</p><div><h3>Virtual Assistant</h3><p class="rose-executive-company"></p><p class="rose-executive-copy">Provided virtual assistance and administrative support.</p></div></article><article class="rose-executive-tenure"><p class="rose-executive-dates">November 2019 - August 2020</p><div><h3></h3><p class="rose-executive-company">Isetann Department Store, Inc. – Cubao</p><p class="rose-executive-copy">Worked in a department store environment; exact role is not clearly associated in the source text.</p></div></article><article class="rose-executive-tenure"><p class="rose-executive-dates">January 2019 - November 2019</p><div><h3></h3><p class="rose-executive-company"></p><p class="rose-executive-copy">Employment entry present in the resume, but the employer and role are unclear.</p></div></article><article class="rose-executive-tenure"><p class="rose-executive-dates">October 2018 - December 2018</p><div><h3>Delivery Rider</h3><p class="rose-executive-company">Andok’s Lechon Manok Corp., 525th Camp Tinio, Cabanatuan City</p><p class="rose-executive-copy">Worked as a delivery rider.</p></div></article><article class="rose-executive-tenure"><p class="rose-executive-dates">September 2015 - December 2015</p><div><h3>Service Crew / Food Handler</h3><p class="rose-executive-company">Tapsi ni Vivian Restaurant</p><p class="rose-executive-copy">Performed service crew and food handling duties.</p></div></article><article class="rose-executive-tenure"><p class="rose-executive-dates">November 2015</p><div><h3></h3><p class="rose-executive-company">M.M. Relucio Enterprises</p><p class="rose-executive-copy">Employment entry present in the resume; role and end date are unclear.</p></div></article><article class="rose-executive-tenure"><p class="rose-executive-dates">April 2016 - August 2016</p><div><h3>Sales Representative</h3><p class="rose-executive-company"></p><p class="rose-executive-copy">Sales-related experience listed; employer is unclear.</p></div></article><article class="rose-executive-tenure"><p class="rose-executive-dates"></p><div><h3>Sales Representative</h3><p class="rose-executive-company"></p><p class="rose-executive-copy">Sales roles listed with Isetann Supermarket – P. Tuazon, Asticom Globe, AllHome Cabanatuan, Sweepstakes Casino, and Bestank; dates and employer-role mapping are unclear.</p></div></article></section><section class="rose-executive-section" id="skills" data-dfy-region="skills" aria-labelledby="skills-heading"><p class="rose-executive-label">II · Expertise</p><h2 id="skills-heading">Skills</h2><ul class="rose-executive-skills"><li>Data entry</li><li>Database management</li><li>Research</li><li>Sales and marketing</li><li>Time management</li><li>Customer service</li><li>Machine learning</li><li>Microsoft Office Suite</li><li>Scheduling</li><li>Team coordination</li><li>Fast learner</li></ul></section><section class="rose-executive-section" id="education" data-dfy-region="education" aria-labelledby="education-heading"><p class="rose-executive-label">III · Education</p><h2 id="education-heading">Education</h2><article class="rose-executive-education"><h3>College for Research and Technology</h3><p>Associate degree, Computer</p><p class="rose-executive-dates">2014 - 2015</p></article><article class="rose-executive-education"><h3>Alternative Learning Center</h3><p class="rose-executive-dates">2011 - 2012</p></article><article class="rose-executive-education"><h3>Camp Tinio Elementary School</h3><p class="rose-executive-dates">2000 - 2005</p></article></section></div>
+  <section class="rose-executive-contact" id="contact" data-dfy-region="contact" aria-labelledby="contact-heading"><p class="rose-executive-label">Contact</p><h2 id="contact-heading">Get in touch</h2><div><a class="rose-executive-link" href="mailto:johnmarkpayacag031@gmail.com" rel="noopener noreferrer">johnmarkpayacag031@gmail.com</a><a class="rose-executive-link" href="tel:0926-414-6980" rel="noopener noreferrer">0926-414-6980</a></div></section>
+</div></main>
+  <footer class="dfy-footer"><a class="dfy-footer__resume" aria-label="Download resume" href="assets/resume.pdf?v=9324e677f18b" download="John-Mark-Payacag-Resume.pdf">Download Resume</a><p class="dfy-footer__attribution">Powered by <a href="https://leadportal.com">LeadPortal</a></p></footer>
+  
+</body>
+</html>

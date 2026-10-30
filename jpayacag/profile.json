@@ -1,0 +1,113 @@
+{
+  "full_name": "John Mark Payacag",
+  "headline": "Data Entry Specialist | Virtual Assistant",
+  "summary": "Virtual assistant and administrative professional with experience in customer service, sales, operations support, and workflow coordination. Skills listed include database management, research, time management, and Microsoft Office-related administrative work.",
+  "email": "johnmarkpayacag031@gmail.com",
+  "phone": "0926-414-6980",
+  "location": "Cabanatuan City, Nueva Ecija, Philippines",
+  "skills": [
+    "Data entry",
+    "Database management",
+    "Research",
+    "Sales and marketing",
+    "Time management",
+    "Customer service",
+    "Machine learning",
+    "Microsoft Office Suite",
+    "Scheduling",
+    "Team coordination",
+    "Fast learner"
+  ],
+  "experience": [
+    {
+      "company": "",
+      "title": "Virtual Assistant",
+      "start_date": "May 2022",
+      "end_date": "August 2025",
+      "summary": "Provided virtual assistance and administrative support.",
+      "highlights": []
+    },
+    {
+      "company": "Isetann Department Store, Inc. – Cubao",
+      "title": "",
+      "start_date": "November 2019",
+      "end_date": "August 2020",
+      "summary": "Worked in a department store environment; exact role is not clearly associated in the source text.",
+      "highlights": []
+    },
+    {
+      "company": "",
+      "title": "",
+      "start_date": "January 2019",
+      "end_date": "November 2019",
+      "summary": "Employment entry present in the resume, but the employer and role are unclear.",
+      "highlights": []
+    },
+    {
+      "company": "Andok’s Lechon Manok Corp., 525th Camp Tinio, Cabanatuan City",
+      "title": "Delivery Rider",
+      "start_date": "October 2018",
+      "end_date": "December 2018",
+      "summary": "Worked as a delivery rider.",
+      "highlights": []
+    },
+    {
+      "company": "Tapsi ni Vivian Restaurant",
+      "title": "Service Crew / Food Handler",
+      "start_date": "September 2015",
+      "end_date": "December 2015",
+      "summary": "Performed service crew and food handling duties.",
+      "highlights": []
+    },
+    {
+      "company": "M.M. Relucio Enterprises",
+      "title": "",
+      "start_date": "November 2015",
+      "end_date": "",
+      "summary": "Employment entry present in the resume; role and end date are unclear.",
+      "highlights": []
+    },
+    {
+      "company": "",
+      "title": "Sales Representative",
+      "start_date": "April 2016",
+      "end_date": "August 2016",
+      "summary": "Sales-related experience listed; employer is unclear.",
+      "highlights": []
+    },
+    {
+      "company": "",
+      "title": "Sales Representative",
+      "start_date": "",
+      "end_date": "",
+      "summary": "Sales roles listed with Isetann Supermarket – P. Tuazon, Asticom Globe, AllHome Cabanatuan, Sweepstakes Casino, and Bestank; dates and employer-role mapping are unclear.",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "College for Research and Technology",
+      "degree": "Associate degree",
+      "field": "Computer",
+      "start_date": "2014",
+      "end_date": "2015"
+    },
+    {
+      "institution": "Alternative Learning Center",
+      "degree": "",
+      "field": "",
+      "start_date": "2011",
+      "end_date": "2012"
+    },
+    {
+      "institution": "Camp Tinio Elementary School",
+      "degree": "",
+      "field": "",
+      "start_date": "2000",
+      "end_date": "2005"
+    }
+  ],
+  "certifications": [],
+  "links": [],
+  "portfolio": []
+}
